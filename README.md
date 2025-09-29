@@ -76,4 +76,16 @@ terraform plan
 # Apply configuration
 terraform apply
 
-**Configuration**
+```
+**Configuration of .env**
+RAPIDAPI_KEY=<your_rapidapi_key>
+S3_BUCKET=<your_s3_bucket_name>
+AWS_ACCESS_KEY_ID=<your_aws_access_key>
+AWS_SECRET_ACCESS_KEY=<your_aws_secret_key>
+LEAGUE=<league_name>
+DATE=<YYYY-MM-DD>
+
+**The Next Steps**
+- Push the image into the ECR using the view commands after the repo is created.
+- Pull the image into the EC2 instance and then run the docker image.
+
