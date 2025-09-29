@@ -1,0 +1,25 @@
+/app/.env
+
+*.tfstate
+*.tfstate.*
+# .terraform directories (Terraform modules and plugins)
+.terraform/
+.terraform.lock.hcl
+
+../terraform/*.tfvars
+/terraform/*.tfvars
+terraform/terraform.tfvars
+
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings folder
+.vscode/
+
+# Log files
+*.log
+
+# Python virtual environments (if applicable)
+venv/
