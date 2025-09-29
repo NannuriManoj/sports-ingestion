@@ -90,3 +90,5 @@ DATE=<YYYY-MM-DD>
 - Push the image into the ECR using the view commands after the repo is created.
 - Pull the image into the EC2 instance and then run the docker image.
 
+<img width="951" height="466" alt="image" src="https://github.com/user-attachments/assets/9a390916-f23b-49e1-8cf6-90144bcde42a" />
+
